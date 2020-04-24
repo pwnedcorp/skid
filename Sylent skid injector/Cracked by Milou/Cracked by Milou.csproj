@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{5472C558-D5E1-4E70-BD94-548C26383CD2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cracked by Milou</RootNamespace>
+    <AssemblyName>Cracked by Milou</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>Cracked by Milou.ico</ApplicationIcon>
+    <StartupObject>Sylent_Injector.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="083914F5.cs" />
+    <Compile Include="083914F5__0.cs" />
+    <Compile Include="16D25689.cs" />
+    <Compile Include="16D25689__0.cs" />
+    <Compile Include="1F4B036F.cs" />
+    <Compile Include="1F4B036F__0.cs" />
+    <Compile Include="1F6C3896.cs" />
+    <Compile Include="1F6C3896__0.cs" />
+    <Compile Include="2AD331A9.cs" />
+    <Compile Include="2AD331A9__0.cs" />
+    <Compile Include="2FEC5D6A.cs" />
+    <Compile Include="2FEC5D6A__0.cs" />
+    <Compile Include="39747AB1.cs" />
+    <Compile Include="39747AB1__0.cs" />
+    <Compile Include="40942835.cs" />
+    <Compile Include="40942835__0.cs" />
+    <Compile Include="497710A2.cs" />
+    <Compile Include="497710A2__0.cs" />
+    <Compile Include="4C004074.cs" />
+    <Compile Include="4C004074__0.cs" />
+    <Compile Include="581920F2.cs" />
+    <Compile Include="581920F2__0.cs" />
+    <Compile Include="64F81A12.cs" />
+    <Compile Include="64F81A12__0.cs" />
+    <Compile Include="6A943541.cs" />
+    <Compile Include="6A943541__0.cs" />
+    <Compile Include="DLLInjection\DLLInjectionFailedException.cs" />
+    <Compile Include="DLLInjection\DLLInjectionFailedException__0.cs" />
+    <Compile Include="DLLInjection\DLLInjector.cs" />
+    <Compile Include="DLLInjection\DLLInjector__0.cs" />
+    <Compile Include="DLLInjection\InjectionMethod.cs" />
+    <Compile Include="DLLInjection\InjectionMethod__0.cs" />
+    <Compile Include="DLLInjection\InjectionOptions.cs" />
+    <Compile Include="DLLInjection\InjectionOptions__0.cs" />
+    <Compile Include="DLLInjection\InjectionStrategies\CreateRemoteThreadInjectionStrategy.cs" />
+    <Compile Include="DLLInjection\InjectionStrategies\CreateRemoteThreadInjectionStrategy__0.cs" />
+    <Compile Include="DLLInjection\InjectionStrategies\IInjectionStrategy.cs" />
+    <Compile Include="DLLInjection\InjectionStrategies\IInjectionStrategy__0.cs" />
+    <Compile Include="DLLInjection\InjectionStrategies\InjectionStrategyFactory.cs" />
+    <Compile Include="DLLInjection\InjectionStrategies\InjectionStrategyFactory__0.cs" />
+    <Compile Include="DLLInjection\InjectionStrategies\LoadLibraryInjectionStrategyBase.cs" />
+    <Compile Include="DLLInjection\InjectionStrategies\LoadLibraryInjectionStrategyBase__0.cs" />
+    <Compile Include="DLLInjection\InjectionStrategies\NtCreateThreadExInjectionStrategy.cs" />
+    <Compile Include="DLLInjection\InjectionStrategies\NtCreateThreadExInjectionStrategy__0.cs" />
+    <Compile Include="DLLInjection\Utils.cs" />
+    <Compile Include="DLLInjection\Utils__0.cs" />
+    <Compile Include="DLLInjection\WinAPI.cs" />
+    <Compile Include="DLLInjection\WinAPI__0.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sylent_Injector\Injector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sylent_Injector\Injector.Designer.cs">
+      <DependentUpon>Injector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sylent_Injector\Injector__0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sylent_Injector\Injector__0.Designer.cs">
+      <DependentUpon>Injector__0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sylent_Injector\Loader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sylent_Injector\Loader.Designer.cs">
+      <DependentUpon>Loader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sylent_Injector\Loader__0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sylent_Injector\Loader__0.Designer.cs">
+      <DependentUpon>Loader__0.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sylent_Injector\Program.cs" />
+    <Compile Include="Sylent_Injector\Program__0.cs" />
+    <Compile Include="Sylent_Injector\Properties\Resources.cs" />
+    <Compile Include="Sylent_Injector\Properties\Resources__0.cs" />
+    <Compile Include="Sylent_Injector\Properties\Settings.cs" />
+    <Compile Include="Sylent_Injector\Properties\Settings.Designer.cs">
+      <DependentUpon>Settings.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sylent_Injector\Properties\Settings__0.cs" />
+    <Compile Include="Sylent_Injector\Properties\Settings__0.Designer.cs">
+      <DependentUpon>Settings__0.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Sylent_Injector\SelectGameType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sylent_Injector\SelectGameType.Designer.cs">
+      <DependentUpon>SelectGameType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sylent_Injector\SelectGameType__0.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sylent_Injector\SelectGameType__0.Designer.cs">
+      <DependentUpon>SelectGameType__0.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sylent_Injector\Injector.2.resources" />
+    <EmbeddedResource Include="Sylent_Injector\Injector.resources" />
+    <EmbeddedResource Include="Sylent_Injector\Loader.2.resources" />
+    <EmbeddedResource Include="Sylent_Injector\Loader.resources" />
+    <EmbeddedResource Include="Sylent_Injector\Properties\Resources.2.resources" />
+    <EmbeddedResource Include="Sylent_Injector\Properties\Resources.resources" />
+    <EmbeddedResource Include="Sylent_Injector\SelectGameType.2.resources" />
+    <EmbeddedResource Include="Sylent_Injector\SelectGameType.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+    <None Include="Sylent_Injector\Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Sylent_Injector\Properties\Settings__0.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings__0.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
